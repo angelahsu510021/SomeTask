@@ -5,7 +5,13 @@
 using namespace std;
 const int maxn=30;
 int n;
-vector<int> pile[maxn]; //每個pile[i]是一個vector
+vector<int> pile[maxn]; 
+//vetor不定長陣列
+//pile.size()讀陣列大小
+//pile.resize改變大小
+//pile.push_back向陣列末端添加元素
+//pile.pop_back刪除最後一個元素
+//每個pile[i]是一個vector
 //從左到右有n個木塊,編號0~n-1
 //move a onto b:把a和b上方的木塊全部歸位 然後把a放在b上面
 //move a over b:把a上方的木塊全部歸位 然後把a放在b所在木塊堆的頂部
